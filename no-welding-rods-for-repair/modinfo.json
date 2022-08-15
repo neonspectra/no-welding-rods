@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "no-welding-rods-for-repair",
+    "name": "No Welding Rods (Repair Only)",
+    "authors": [ "Neon" ],
+    "description": "Removes welding rods from repair recipes only. Crafting will still require welding rods.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

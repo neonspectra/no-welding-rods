@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "no-welding-rods",
+    "name": "No Welding Rods (Crafting+Repair)",
+    "authors": [ "Neon" ],
+    "description": "Removes welding rods from all recipes for both crafting and repair. Reject realism, embrace Mad Max.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ]
+  }
+]

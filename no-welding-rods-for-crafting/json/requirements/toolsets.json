@@ -1,0 +1,16 @@
+[
+  {
+    "id": "welding_standard",
+    "type": "requirement",
+    "//": "Crafting of steel/iron items or installation of vehicle parts",
+    "qualities": [ { "id": "GLARE", "level": 1 } ],
+    "tools": [ [ [ "welder", 10 ], [ "welder_crude", 15 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ] ]
+  },
+  {
+    "id": "welding_alloys",
+    "type": "requirement",
+    "//": "Crafting items made of aluminium alloy or installation of vehicle parts",
+    "qualities": [ { "id": "GLARE", "level": 1 } ],
+    "tools": [ [ [ "welder", 10 ], [ "welder_crude", 15 ], [ "toolset", 15 ], [ "oxy_torch", 2 ] ] ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "repair_welding_standard",
+    "type": "requirement",
+    "//": "Repair of steel/iron items",
+    "qualities": [ { "id": "GLARE", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
+    "tools": [ [ [ "welder", 20 ], [ "welder_crude", 30 ], [ "toolset", 30 ], [ "oxy_torch", 4 ] ] ],
+    "components": [
+      [ [ "steel_tiny", 1, "LIST" ] ]
+    ]
+  },
+  {
+    "id": "repair_welding_alloys",
+    "type": "requirement",
+    "//": "Repair items made of aluminium alloy",
+    "qualities": [ { "id": "GLARE", "level": 1 }, { "id": "HAMMER", "level": 2 } ],
+    "tools": [ [ [ "welder", 20 ], [ "welder_crude", 30 ], [ "toolset", 30 ], [ "oxy_torch", 4 ] ] ],
+    "components": [
+      [ [ "material_aluminium_ingot", 1 ] ]
+    ]
+  }
+]
